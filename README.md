@@ -1,12 +1,12 @@
 # glassclassification
-<br><h1>Prerequisites:</h1><br><br>
+<br><h1>Prerequisites:</h1><br>
 You will need the following programmes properly installed on your computer.<br>
 Python 3.7+ <br>
 django 2.2+ <br>
 Virtual Environment
 To install virtual environment on your system use:
 
-pip install virtualenv <br>
+pip install virtualenv
 
 or<br>
 
@@ -29,23 +29,23 @@ python manage.py runserver
 http://127.0.0.1:8000
 
 
-objective: Its Based on Machine Learning app to classify the glass category and uses based on Given Input
-(Attribute Information:
-RI: refractive index
-Na: Sodium (unit measurement: weight percent in corresponding oxide, as are attributes 4-10)
-Mg: Magnesium
-Al: Aluminum
-Si: Silicon
-K: Potassium
-Ca: Calcium
-Ba: Barium
-Fe: Iron
-Type of glass: (class attribute)
--- 1 buildingwindowsfloatprocessed
--- 2 buildingwindowsnonfloatprocessed
--- 3 vehiclewindowsfloatprocessed
--- 4 vehiclewindowsnonfloatprocessed (none in this database)
--- 5 containers
--- 6 tableware
--- 7 headlamps
+objective: Its Based on Machine Learning app to classify the glass category and uses based on Given Input<br>
+(Attribute Information:<br>
+RI: refractive index<br>
+Na: Sodium (unit measurement: weight percent in corresponding oxide, as are attributes 4-10)<br>
+Mg: Magnesium<br>
+Al: Aluminum<br>
+Si: Silicon<br>
+K: Potassium<br>
+Ca: Calcium<br>
+Ba: Barium<br>
+Fe: Iron<br>
+Type of glass: (class attribute)<br>
+-- 1 buildingwindowsfloatprocessed<br>
+-- 2 buildingwindowsnonfloatprocessed<br>
+-- 3 vehiclewindowsfloatprocessed<br>
+-- 4 vehiclewindowsnonfloatprocessed (none in this database)<br>
+-- 5 containers<br>
+-- 6 tableware<br>
+-- 7 headlamps<br>
 )
