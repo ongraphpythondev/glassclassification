@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<h1>Welcome to class classfication </h1><br><br>
+<h1>Enter the Form Data </h1>
+<form method="GET" action="{% url 'result' %} ">
+{% csrf_token %}
+RI:<input type="text" name="RI" /><br><br>
+Na:<input type="text" name="Na" /><br><br>
+Mg:<input type="text" name="Mg" /><br><br>
+Al:<input type="text" name="Al" /><br><br>
+Si:<input type="text" name="Si" /><br><br>
+K:<input type="text" name="K" /><br><br>
+Ca:<input type="text" name="Ca" /><br><br>
+Ba:<input type="text" name="Ba" /><br><br>
+Fe:<input type="text" name="Fe" /><br><br>
+
+<input type="submit" name="" value="Submit">
+
+</form>
+</body>
+</html>
